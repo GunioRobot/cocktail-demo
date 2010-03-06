@@ -88,7 +88,7 @@ If you don't want to, just comment the amf datasource in the this xml:
 
 2. You will also need Ruby in your machine in order to use Shake, the Cocktail
 Scaffolding engine. See more at:
-	http://nybras.m/nybras/shake/
+	http://github.com/nybras/shake/
 
 
 ================================================================================
