@@ -11,7 +11,7 @@
 	
     <target name="embedder" >
         <exec executable="${ruby}" dir="." failonerror="true">
-            <arg line="demo/shake/shake.rb" />
+            <arg line="shake/shake.rb" />
 			<arg line="embedder" />
         </exec>
     </target>
