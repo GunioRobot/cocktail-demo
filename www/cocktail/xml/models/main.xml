@@ -35,8 +35,7 @@
 
 	<!--  HTTP  -->
 
-	<http id="http-test" inject="main,home" locale="pt"
-		src="services/http/strings.php">
+	<http id="http-test" inject="main,home" locale="pt" src="services/http/strings.html">
 		<instrument-string>{RAW}</instrument-string>
 	</http>
 
