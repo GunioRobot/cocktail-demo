@@ -1,3 +1,6 @@
 [submodule "cocktail"]
 	path = cocktail
 	url = git://github.com/nybras/cocktail
+[submodule "shake"]
+	path = shake
+	url = git://github.com/nybras/shake.git
