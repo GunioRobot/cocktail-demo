@@ -1,0 +1,19 @@
+<project name="build" default="all" basedir=".">
+    <description>
+        Shortcuts to some scaffold scripts
+    </description>
+    
+	<property name="ruby" value="ruby" />
+	
+    <target name="all">
+    	 <antcall target="embedder" />     
+    </target>
+	
+    <target name="embedder" >
+        <exec executable="${ruby}" dir="." failonerror="true">
+            <arg line="demo/shake/shake.rb" />
+			<arg line="embedder" />
+        </exec>
+    </target>
+	
+</project>

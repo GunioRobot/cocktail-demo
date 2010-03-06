@@ -1,0 +1,3 @@
+<view>
+	<img id="background" src="background.jpg" class="base.Background" />
+</view>

@@ -1,0 +1,52 @@
+<model>
+
+
+	<!--  INLINE  -->
+
+	<inline id="inline-test" inject="main,home" locale="pt">
+		<song>Dead From Inside Out</song>
+		<year>2010</year>
+		<duration>10"+</duration>
+	</inline>
+
+
+
+	<!--  XML  -->
+
+	<xml id="xml-test" inject="main,home" locale="pt" src="artists.xml">
+		<xml-raw>{RAW}</xml-raw>
+		<artist>{..genre.(@name==Prog Rock).artists.artist[1].@name}</artist>
+		<decade>{..genre.(@name==Prog Rock).artists.artist[1].@decade}</decade>
+	</xml>
+
+
+
+	<!--  AMF  -->
+
+	<amf id="amf-test" inject="main,home" locale="pt" src="Instruments">
+		<get_all params="en">
+			<amf-raw>{RAW}</amf-raw>
+			<instrument-wind-1>{wind[0]}</instrument-wind-1>
+			<instrument-wind-2>{wind[1]}</instrument-wind-2>
+		</get_all>
+	</amf>
+
+
+
+	<!--  HTTP  -->
+
+	<http id="http-test" inject="main,home" locale="pt"
+		src="services/http/strings.php">
+		<instrument-string>{RAW}</instrument-string>
+	</http>
+
+
+
+	<!--  JSON  -->
+
+	<json id="json-test" inject="main,home" locale="pt"
+		src="services/json/songs.html">
+		<songs-num>{antahkarana.songs.length}</songs-num>
+	</json>
+
+</model>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+	
+	<!-- MAIN MOVIE PROPERTIES -->
+	<movie scaleMode="noScale" showMenu="false" width="800" height="705" align="C" />
+	
+	<!-- CACHE CONTROL -->
+	<cache local="false" development="true" production="true" />
+	
+	<!-- APPLICATION PATHS -->
+	<paths default="local">
+		
+		<path name="local"			url="./"	/>
+		<path name="development"	url="./"	/>
+		<path name="production"		url="./"	/>
+		
+		<filetypes>
+			<path ext="fss" folder="cocktail/css/" />
+			<path ext="fxml" folder="cocktail/fxml/" />
+			<path ext="img" folder="cocktail/img/" />
+			<path ext="swf" folder="cocktail/swf/" />
+			<path ext="flv" folder="cocktail/flv/" />
+			<path ext="mp3" folder="cocktail/mp3/" />
+			<path ext="xml" folder="cocktail/xml/" />
+		</filetypes>
+		
+	</paths>
+	
+	
+	<!--  ROUTES -->
+	<routes>
+		<route mask="cocktail-demo/*" target="main/home/"/>
+	</routes>
+	
+	
+	<!-- APPLICATION GATEWAYS -->
+	<gateways default="local" >
+		<gateway name="local"			url="http://localhost/cocktail-demo/services/amf/gateway.php" />
+		<gateway name="development"		url="http://localhost/cocktail-demo/services/amf/gateway.php" />
+		<gateway name="production"		url="http://cocktail.as/demo/services/amf/gateway.php" />
+	</gateways>
+	
+	<!-- MULTILANGUAGE PROPERTIES -->
+	<languages default="en">
+		<en />
+		<pt />
+	</languages>
+	
+</config>

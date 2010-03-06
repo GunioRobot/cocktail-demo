@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<artists>
+	<genres>
+		<genre name="Prog Rock">
+			<artists>
+				<artist name="King Crimson" decade="60" />
+				<artist name="Antahkarana" decade="00" />
+				<artist name="Pink Floyd" decade="60" />
+				<artist name="Tool" decade="90" />
+			</artists>
+		</genre>
+		<genre name="Pop Rock">
+			<artists>
+				<artist name="Anything" decade="88" />
+				<artist name="Doenst Matter" decade="88" />
+			</artists>
+		</genre>
+	</genres>
+</artists>

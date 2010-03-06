@@ -1,0 +1,26 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <title>Codeine</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <script type="text/javascript" src="./cocktail/js/main.js"></script>
+        <script type="text/javascript" src="./cocktail/js/swfobject/swfobject.js"></script>
+        <script type="text/javascript" src="./cocktail/js/swfaddress/swfaddress.js"></script>
+        <script type="text/javascript" src="./cocktail/js/mousewheel/extMouseWheel.js"></script>
+		<link href="./cocktail/css/main.css" rel="stylesheet" type="text/css"></script>
+    </head>
+    <body>
+        <div id="content">
+            <p>In order to view this page you need JavaScript and Flash Player 9+ support!</p>
+        </div>
+        <script type="text/javascript">
+        // <![CDATA[
+			var so = new SWFObject('./cocktail/swf/boot.swf', 'codeine', '100%', '100%', '9', '#000000');
+			so.useExpressInstall('./cocktail/swf/swfobject/expressinstall.swf' );
+			so.addVariable ( "preloader", "./cocktail/swf/elements/preloader.swf" );
+			so.addVariable ( "app", "./cocktail/swf/core.swf" );
+			so.addParam('menu', 'false');
+			so.write('content');
+        // ]]>
+        </script>
+    </body>
+</html>

@@ -1,0 +1,34 @@
+package <PROJECT_NAME>.models 
+{
+	import <PROJECT_NAME>.AppModel;
+	
+	/**
+	 * Handles the <AREA_NAME> model.
+	 * @author shake
+	 */
+	public class <AREA_NAME>Model extends AppModel
+	{
+		/* ---------------------------------------------------------------------
+			LOADING
+		--------------------------------------------------------------------- */
+		
+		/**
+		 * Adds some data requests to the DataSource's loading queue.
+		 */
+		public function before_load () : void
+		{
+			switch ( current_process.action )
+			{
+%LOAD_CASES%
+			}
+		}
+		
+		
+		
+		/* ---------------------------------------------------------------------
+			ACTIONS
+		--------------------------------------------------------------------- */
+		
+%ACTIONS%
+	}
+}
