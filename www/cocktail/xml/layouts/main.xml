@@ -1,4 +1,5 @@
 <layout>
+
 	<action id="base" require="base.xml">
 		<swf_loader src="my_pretty.swf" id="swf_loader" />
 		<swf src="my_pretty.swf" id="swf" />
