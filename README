@@ -20,7 +20,6 @@ VERSION
 DOWNLOADING A PROJECT
 ================================================================================
 
-If you would like to edit/push to the core repos, you will need to do it all.
 
 1.	Clone the repository
 		$ git clone http://github.com/hems/cocktail-demo
