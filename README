@@ -17,6 +17,20 @@ VERSION
 
 
 ================================================================================
+DOWNLOADING
+================================================================================
+
+Just 2 steps to start rocking the party
+
+1.	Clone the repository
+		git clone http://github.com/hems/cocktail-demo
+
+2.	Initialize and update the submodules ( cocktail / shake )
+		git submodule init
+		git submoule update
+
+
+================================================================================
 RUNNING
 ================================================================================
 
