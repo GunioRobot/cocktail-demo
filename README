@@ -20,29 +20,23 @@ VERSION
 DOWNLOADING A PROJECT
 ================================================================================
 
-If you will just edit your project, and dont contribute to the "core", you just
-need to run the first 2 steps.
-
 If you would like to edit/push to the core repos, you will need to do it all.
 
 1.	Clone the repository
 		$ git clone http://github.com/hems/cocktail-demo
 
-2.	Initialize and update the submodules ( cocktail / shake )
+2.	If you DONT want to maintain your custom cocktail/shake SKIP this step.
+		# this will point submodules to your repos
+		$ cd cocktail-demo/
+		$ git config submodule.cocktail.url=git://github.com/hems/cocktail
+		$ git config submodule.shake.url=git://github.com/hems/shake
+
+
+3.	Initialize and update the submodules ( cocktail / shake )
 		$ cd cocktail-demo/
 		$ git submodule init
 		$ git submoule update
 
-3.	If you would like to maintain you own version of cocktail/shake you should:
-		$ cd shake/
-		$ git remote rm origin
-		$ git remote add origin git://github.com/hems/shake.git
-		# i am assuming you already cloned shake
-
-		$ cd cocktail/
-		$ git remote rm origin
-		$ git remote add origin git@github.com:hems/cocktail.git
-		# i am assuming you already cloned cocktail
 
 ================================================================================
 RUNNING
