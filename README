@@ -27,8 +27,8 @@ DOWNLOADING A PROJECT
 2.	If you DONT want to maintain your custom cocktail/shake SKIP this step.
 		# this will point submodules to your repos
 		$ cd cocktail-demo/
-		$ git config submodule.cocktail.url=git://github.com/hems/cocktail
-		$ git config submodule.shake.url=git://github.com/hems/shake
+		$ git config submodule.cocktail.url git://github.com/hems/cocktail
+		$ git config submodule.shake.url git://github.com/hems/shake
 
 
 3.	Initialize and update the submodules ( cocktail / shake )
@@ -42,6 +42,8 @@ RUNNING
 ================================================================================
 
 This six steps will guide you to get this application compiling and working:
+
+( If you use FDT, just have to do step 5 and run: Debug launch )
 
 --------------------------------------------------------------------------------
 1.	Add these paths to your classpath:
