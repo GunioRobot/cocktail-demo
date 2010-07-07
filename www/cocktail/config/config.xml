@@ -35,8 +35,8 @@
 	
 	<!-- APPLICATION GATEWAYS -->
 	<gateways default="local" >
-		<gateway name="local"			url="http://localhost/cocktail-demo/services/amf/gateway.php" />
-		<gateway name="development"		url="http://localhost/cocktail-demo/services/amf/gateway.php" />
+		<gateway name="local"			url="/cocktail-demo/services/amf/gateway.php" />
+		<gateway name="development"		url="http://cocktail.as/cocktail-demo/services/amf/gateway.php" />
 		<gateway name="production"		url="http://cocktail.as/demo/services/amf/gateway.php" />
 	</gateways>
 	
