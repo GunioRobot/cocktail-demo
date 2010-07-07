@@ -27,8 +27,8 @@ DOWNLOADING A PROJECT
 2.	If you DONT want to maintain your custom cocktail/shake SKIP this step.
 		# this will point submodules to your repos
 		$ cd cocktail-demo/
-		$ git config submodule.cocktail.url=git://github.com/hems/cocktail
-		$ git config submodule.shake.url=git://github.com/hems/shake
+		$ git config submodule.cocktail.url git://github.com/hems/cocktail
+		$ git config submodule.shake.url git://github.com/hems/shake
 
 
 3.	Initialize and update the submodules ( cocktail / shake )
@@ -41,7 +41,20 @@ DOWNLOADING A PROJECT
 RUNNING
 ================================================================================
 
-This six steps will guide you to get this application compiling and working:
+This six steps will guide you to get this application compiling and working.
+
+This way you will be able to test your application inside the browser, which
+is a pretty useful thing to do.
+
+For those using FDT, use the "Import Project" in Eclipse to import this project.
+You'll automagically get everything working for you. You'll only need to do the
+fifth step, and so you can try the included Debug Launch Configuration:
+	
+	Debug -> cocktail-demo-core
+
+In case something don't work for you, feel free to use the MailingLists listed
+below. Surely somebody will help you with this.
+
 
 --------------------------------------------------------------------------------
 1.	Add these paths to your classpath:
@@ -78,25 +91,11 @@ This six steps will guide you to get this application compiling and working:
 		/www/
 	folder. If you're in Linux or OSX, it'll be something like this:
 	
-		ln -s ./www/ /<path-to-your-web-server-root>/cocktail-demo/
+		ln -s /{absolute-path}/cocktail-demo/www/ www/cocktail-demo
 
 --------------------------------------------------------------------------------
 6.	Launch the url:
 		http://localhost/cocktail-demo/
-
-
-
-This way you will be able to test your application inside the browser, which
-is a pretty useful thing to do.
-
-For those using FDT, use the "Import Project" in Eclipse to import this project.
-You'll automagically get everything working for you. You'll only need to do the
-fifth step, and so you can try the included Debug Launch Configuration:
-	
-	Debug -> cocktail-demo-core
-
-In case something don't work for you, feel free to use the MailingLists listed
-below. Surely somebody will help you with this.
 
 
 ================================================================================
