@@ -43,7 +43,6 @@ RUNNING
 
 This six steps will guide you to get this application compiling and working:
 
-( If you use FDT, just have to do step 5 and run: Debug launch )
 
 --------------------------------------------------------------------------------
 1.	Add these paths to your classpath:
