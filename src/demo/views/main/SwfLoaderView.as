@@ -4,6 +4,8 @@ package demo.views.main
 	import cocktail.lib.views.SwfView;
 
 	/**
+	 * This class is a "custom swf loader".
+	 * 
 	 * @author hems | henrique@cocktail.as
 	 */
 	public class SwfLoaderView extends SwfView
@@ -11,7 +13,7 @@ package demo.views.main
 		override public function before_render( request : Request ) : Boolean 
 		{
 			if( !super.before_render( request ) ) return false;
-			
+
 			return true;
 		}
 

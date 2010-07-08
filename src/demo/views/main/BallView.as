@@ -1,15 +1,14 @@
 package demo.views.main 
 {
 	import cocktail.core.request.Request;
-
-	import demo.AppView;
+	import cocktail.lib.views.SwfView;
 
 	/**
 	 * @author hems | henrique@cocktail.as
 	 */
-	public class MyAwesomeView extends AppView 
+	public class BallView extends SwfView 
 	{
-		public function MyAwesomeView()
+		public function BallView()
 		{
 		}
 
@@ -23,7 +22,7 @@ package demo.views.main
 			sprite.graphics.drawCircle( 0, 0, 50 );
 			sprite.graphics.endFill( );
 			
-			cocktail.app.addChild( sprite );
+			//cocktail.app.addChild( sprite );
 		}
 	}
 }

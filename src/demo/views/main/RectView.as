@@ -8,7 +8,7 @@ package demo.views.main
 	/**
 	 * @author hems | henrique@cocktail.as
 	 */
-	public class AnotherOneView extends AppView
+	public class RectView extends AppView
 	{
 		override public function after_render(request : Request) : void 
 		{

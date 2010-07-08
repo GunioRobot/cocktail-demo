@@ -17,7 +17,9 @@
 		<filetypes>
 			<path ext="fss" folder="cocktail/css/" />
 			<path ext="fxml" folder="cocktail/fxml/" />
-			<path ext="img" folder="cocktail/img/" />
+			<path ext="jpg" folder="cocktail/img/" />
+			<path ext="jpeg" folder="cocktail/img/" />
+			<path ext="png" folder="cocktail/img/" />
 			<path ext="swf" folder="cocktail/swf/" />
 			<path ext="flv" folder="cocktail/flv/" />
 			<path ext="mp3" folder="cocktail/mp3/" />

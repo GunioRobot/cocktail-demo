@@ -1,15 +1,19 @@
 <layout>
 
-	<action id="base" require="base.xml">
-		<swf_loader src="my_pretty.swf" id="swf_loader" />
-		<swf src="my_pretty.swf" id="swf" />
-		<img src="my_pretty.png" id="img" />
-	</action>
-	
 	<action id="home" require="home.xml">
-		<my_awesome src="teste.swf" />
-		<another_one id="text" x="500" y="0" />
-		<div class="MyDiv" />
+		
+		<rect id="text" x="0" y="0" />
+		
+		<img id="img" src="embryo.jpg" />
+		
+		<ball id="ball" x="20" y="20" />
+		
+		<swf_loader src="pretty.swf" />
+		
+		
 	</action>
-	
+
+	<action id="base" require="base.xml">
+	</action>
+		
 </layout>
