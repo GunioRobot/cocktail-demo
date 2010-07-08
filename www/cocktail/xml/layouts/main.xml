@@ -1,6 +1,6 @@
 <layout>
 
-	<action id="home" require="home.xml">
+	<action id="home" >
 		
 		<rect id="text" x="0" y="0" />
 		
@@ -13,7 +13,8 @@
 		
 	</action>
 
-	<action id="base" require="base.xml">
+	<action id="internal" >
+		<img id="img" src="embryo.jpg" />
 	</action>
 		
 </layout>
