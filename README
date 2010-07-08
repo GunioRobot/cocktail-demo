@@ -27,8 +27,8 @@ DOWNLOADING A PROJECT
 2.	If you DONT want to maintain your custom cocktail/shake SKIP this step.
 		# this will point submodules to your repos
 		$ cd cocktail-demo/
-		$ git config submodule.cocktail.url git://github.com/hems/cocktail
-		$ git config submodule.shake.url git://github.com/hems/shake
+		$ git config submodule.cocktail.url git@github.com:hems/cocktail.git
+		$ git config submodule.shake.url git@github.com:hems/shake.git
 
 
 3.	Initialize and update the submodules ( cocktail / shake )
