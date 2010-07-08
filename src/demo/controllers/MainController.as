@@ -1,16 +1,14 @@
 package demo.controllers 
 {
-	import demo.AppController;	
+	import demo.AppController;
 
 	/**
-	 * Handles the main Controller behaviors.
-	 * @author nybras | nybras@codeine.it
+	 * @author hems | hems@henriquematias.com
 	 */
 	public class MainController extends AppController 
 	{
 		public function home() : void
 		{
-			log.notice( "Fucking running mothafucka!" );
 		}
 	}
 }
