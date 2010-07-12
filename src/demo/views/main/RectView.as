@@ -17,10 +17,18 @@ package demo.views.main
 			sprite.graphics.beginFill( 0xccff00 );
 			sprite.graphics.drawRect( 0, 0, 500, 500 );
 			sprite.graphics.endFill( );
+			
+			sprite.useHandCursor = true;
+			sprite.buttonMode = true;
 		}
 
 		public function click( bullet : Bullet ) : void
 		{
+			trace( 'on click' );
+			
+			go( "/main/internal/" );
+			
+			bullet;
 		}
 	}
 }

@@ -10,6 +10,10 @@ package demo.models
 	{
 		override public function after_load() : void
 		{
+			log.info( "Running..." );
+			
+			return;
+			
 			log.debug( "========================================" );
 			log.debug( "[InlineDataSource] binds:" );
 			log.debug( "song: " + bind.g( "song" ) );

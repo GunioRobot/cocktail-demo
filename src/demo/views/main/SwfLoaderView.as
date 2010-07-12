@@ -20,6 +20,8 @@ package demo.views.main
 		override public function after_render(request : Request) : void 
 		{
 			super.after_render( request );
+			
+			trace( 'swf loaded' );
 		}
 	}
 }
