@@ -31,7 +31,7 @@ package
 			embedder = new Embedder( );
 			routes = new Routes( );
 			app_id = "demo";
-			url = "/main/home";
+			url    = "/main/home";
 			
 			_cocktail = new Cocktail( this, embedder, routes, app_id, url );
 			
