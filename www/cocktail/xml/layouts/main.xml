@@ -1,6 +1,6 @@
 <layout>
 
-	<action id="home" >
+	<home>
 		
 		<rect id="text" x="0" y="0" />
 		
@@ -10,11 +10,12 @@
 		
 		<swf_loader src="pretty.swf" />
 		
-		
-	</action>
+	</home>
 
-	<action id="internal" >
+	<internal>
+	
 		<img id="img" src="embryo.jpg" />
-	</action>
+	
+	</internal>
 		
 </layout>
