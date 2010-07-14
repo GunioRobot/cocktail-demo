@@ -22,13 +22,18 @@ DOWNLOADING A PROJECT
 
 
 1.	Clone the repository
-		$ git clone http://github.com/hems/cocktail-demo
+		$ git clone http://github.com/[your-username]/cocktail-demo
 
-2.	If you DONT want to maintain your custom cocktail/shake SKIP this step.
+2.	If you just want to run/edit the DEMO application, SKIP this step.
+	If you want to contribute/edit core cocktail OR shake, you should: 
+
 		# this will point submodules to your repos
 		$ cd cocktail-demo/
-		$ git config submodule.cocktail.url git@github.com:hems/cocktail.git
-		$ git config submodule.shake.url git@github.com:hems/shake.git
+		
+		$ git config submodule.cocktail.url git@github.com:[your-username]/cocktail.git
+		
+		# if you dont want to edit shake, skip this
+		$ git config submodule.shake.url git@github.com:[your-username]/shake.git
 
 
 3.	Initialize and update the submodules ( cocktail / shake )
